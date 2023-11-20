@@ -8,46 +8,17 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/Button"
-        android:layout_width="377dp"
+        android:id="@+id/button"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="18dp"
-        android:layout_marginBottom="71dp"
-        android:text="@string/Proximo"
-        android:visibility="invisible"
-        tools:ignore="VisualLintButtonSize" />
-
-    <Button
-        android:id="@+id/Button"
-        android:layout_width="377dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="17dp"
-        android:layout_marginBottom="128dp"
-        android:text="@string/Continue_with_google"
-        android:visibility="invisible"
-        tools:ignore="DuplicateIds,VisualLintButtonSize" />
-
-
-    <TextView
-        android:id="@+id/moTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
         android:layout_marginStart="100dp"
         android:layout_marginLeft="100dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="145dp"
+        android:layout_marginTop="632dp"
+        android:layout_marginEnd="100dp"
         android:layout_marginRight="100dp"
-        android:layout_marginBottom="1dp"
-        android:clickable="true"
-        android:minHeight="48dp"
-        android:text="@string/ja_tem_conta"
-        android:textColor="#FFFFFF"
-        android:focusable="true" />
+        android:layout_marginBottom="100dp"
+        android:gravity="top|end"
+        android:text="Button"
+        android:visibility="invisible" />
 </RelativeLayout>
 
