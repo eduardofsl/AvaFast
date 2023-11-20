@@ -5,4 +5,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/recuperar_senha"
-    tools:context=".MainActivity"/>
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/moveButton8"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="370dp"
+        android:text="@string/Proximo"
+        android:visibility="invisible"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/moveButton9"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="434dp"
+        android:text="@string/Continue_with_google"
+        android:visibility="invisible"
+        tools:ignore="DuplicateIds,VisualLintButtonSize" />
+
+</RelativeLayout>
