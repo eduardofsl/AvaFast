@@ -8,9 +8,28 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:id="@+id/moveButton"
+        android:layout_width="377dp"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="66dp"
+        android:text="@string/Proximo"
+        android:visibility="invisible"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/moveButton"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="127dp"
+        android:text="@string/Continue_with_google"
+        android:visibility="invisible"
+        tools:ignore="DuplicateIds,VisualLintButtonSize" />
+
 </RelativeLayout>
 
