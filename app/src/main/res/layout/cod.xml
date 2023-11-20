@@ -7,6 +7,86 @@
     android:background="@drawable/cod"
     tools:context=".MainActivity">
 
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="277dp"
+        android:layout_marginBottom="426dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@android:string/emptyPhoneNumber"
+        android:inputType="number"
+        android:textColorHint="#FFFFFF"
+        android:visibility="invisible"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/editTextNumber3"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="214dp"
+        android:layout_marginBottom="425dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@android:string/emptyPhoneNumber"
+        android:inputType="number"
+        android:textColorHint="#FFFFFF"
+        android:visibility="invisible"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/editTextNumber4"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="425dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@android:string/emptyPhoneNumber"
+        android:inputType="number"
+        android:textColorHint="#FFFFFF"
+        android:visibility="invisible"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/editTextNumber5"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="425dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@android:string/emptyPhoneNumber"
+        android:inputType="number"
+        android:textColorHint="#FFFFFF"
+        android:visibility="invisible"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/editTextNumber6"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="425dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@android:string/emptyPhoneNumber"
+        android:inputType="number"
+        android:textColorHint="#FFFFFF"
+        android:visibility="invisible"
+        tools:ignore="LabelFor" />
+
     <Button
         android:id="@+id/moveButton"
         android:layout_width="377dp"
@@ -22,11 +102,11 @@
 
     <EditText
         android:id="@+id/editTextNumber"
-        android:layout_width="376dp"
+        android:layout_width="54dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="12dp"
+        android:layout_marginEnd="337dp"
         android:layout_marginBottom="427dp"
         android:autofillHints=""
         android:ems="10"

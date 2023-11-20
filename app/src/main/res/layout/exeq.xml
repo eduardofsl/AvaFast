@@ -8,25 +8,24 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:layout_width="75dp"
+        android:layout_height="32dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="22dp"
-
-        android:layout_marginBottom="37dp"
-        android:visibility="invisible"
-        android:text="@string/Proximo" />
+        android:layout_marginEnd="302dp"
+        android:layout_marginBottom="41dp"
+        android:text="@string/Pular"
+        android:visibility="invisible" />
 
     <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_width="75dp"
+        android:layout_height="32dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="289dp"
-        android:layout_marginBottom="37dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="41dp"
         android:text="@string/Pular"
         android:visibility="invisible" />
 </RelativeLayout>
