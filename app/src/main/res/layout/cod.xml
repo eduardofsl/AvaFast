@@ -5,4 +5,44 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/cod"
-    tools:context=".MainActivity"/>
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/moveButton"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="369dp"
+        android:text="@string/Proximo"
+        android:visibility="invisible"
+        tools:ignore="VisualLintButtonSize"/>
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="427dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@android:string/emptyPhoneNumber"
+        android:inputType="number"
+        android:textColorHint="#FFFFFF"
+        android:visibility="invisible"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="313dp"
+        android:text="@string/receber_um_novo_codigo"
+        android:visibility="invisible" />
+</RelativeLayout>

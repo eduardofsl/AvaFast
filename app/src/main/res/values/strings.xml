@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="Avaliacao">Avaliação</string>
+    <string name="Proximo">proximo</string>
+    <string name="ja_tem_conta">Já tem conta? Login</string>
+    <string name="Continue_with_google">Continue with google</string>
+    <string name="receber_um_novo_codigo">Receber um novo codigo</string>
+    <string name="Pular">pular</string>
+    <string name="Switch">Switch</string>
+    <string name="Email">email</string>
+    <string name="senha">Senha</string>
 </resources>
